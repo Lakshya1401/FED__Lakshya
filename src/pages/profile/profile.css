@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.profile{
+    
+    display: flex;
+}
+
+.settingwrapper{
+    display: flex;
+    flex: 9;
+}
+
+
+.info{
+    flex: 8;
+    margin-top: 100px;
+   margin-left: 20px;
+}
+
+.head{
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+}
+
+.Name{
+    margin-left: 20px;
+    font-size: 20px;
+    color: rgb(155, 148, 148);
+    font-weight: 500;
+}
+
+.profileimg{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.titleUpdate{
+    flex: 5;
+    right: 80%;
+    opacity: 0.4;
+    color: teal;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.titleUpdate:hover{
+    opacity: 1;
+}

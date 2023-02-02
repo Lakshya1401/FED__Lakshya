@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.headertitle{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-family: 'Lora', serif;
+}
+
+.headerimg{
+    width: 100%;
+    background-size: cover;
+}
+
+.headertitleSm{
+  position: absolute;
+  top: 18%; 
+  font-size: 20px; 
+   color: white;
+}
+
+.headertitleLg{
+    position: absolute;
+    top: 20%; 
+    font-size: 100px; 
+     color: white;
+}
+
+.mr{
+    top:39%;
+    font-size: 50px;
+}

@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.register{
+   height: calc(100vh - 40px);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('../img/register.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   align-items: center;
+}
+
+.registertittle{
+    font-size: 50px;
+    /* color: white; */
+}
+
+.registerform{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerform label{
+    margin: 10px 0;
+}
+
+.registerinput{
+    padding: 10px;
+    border: none;
+    background-color: white;
+}
+
+.Registerbutton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.Loginbutton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
